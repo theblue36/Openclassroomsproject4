@@ -1,0 +1,22 @@
+@mixin column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__header
+{
+    @include column;
+
+     &__bottom {
+        @include column;
+    }
+
+    &__mid {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        & span {
+            margin-right: 17px;
+        }
+    }
+}

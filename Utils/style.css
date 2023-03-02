@@ -1,1 +1,18 @@
-/*# sourceMappingURL=style.css.map */
+.container__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__header__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__header__mid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container__header__mid span {
+  margin-right: 17px;
+}/*# sourceMappingURL=style.css.map */
