@@ -11,6 +11,7 @@
         @include column;
         background: #F7F7F7;
         width: 100%;
+        height: 210px;
     & h2 {
         text-align: center;
         font-size: 24px;
@@ -21,9 +22,10 @@
         text-align: center;
         font-size: 18px;
         margin-bottom: 0;
+        width: 80%;
     }
     & button {
-        margin-top: 40px;
+        margin-top: 27px;
         margin-bottom: 57px;
         border-radius: 25px;
         padding: 13px 18.75px;
@@ -53,15 +55,18 @@
 .main__top {
     height: 370px;
     background: white;
+    padding: 0 20px;
     & h3 {
-        margin: 48px 0 26px 20px;
+        padding-top: 48px;
         font-size: 24px;
+        margin-bottom: 26px;
     }
     & ul {
     list-style: none;
     display: flex;
     row-gap: 24.92px;
     flex-direction: column;
+    padding: 0;
         & li {
             background: #F7F7F7;
             box-shadow: 0px 4px 15px rgb(0 0 0 / 15%);
@@ -76,12 +81,14 @@
             background: #9356DC;
             padding: 5px 8px;
             color: white;
-            margin-right: 21.98px;
+            position: absolute;
+            left: 7px;
         }
         & span:last-child {
             margin-right: 27px;
             color: #7E7E7E;
             font-size: 20px;
+            margin-left: 13px;
         & :hover {
             color: #9356DC;
 
@@ -92,4 +99,65 @@
 }
 .main__bottom {
     background: #F7F7F7;
+    display: flex;
+    row-gap: 25px;
+    flex-direction: column;
+    margin: 0 17px;
+    & h3:first-child {
+        font-size: 24px;
+        margin-top: 54px;
+    }
+    &__cont {
+        background: white;
+        border-radius: 15px;
+        &__imgtxt {
+            display: flex;
+            background: white;
+            border-radius: 15px;
+        & img {
+            width: 100%;
+             object-fit: cover;
+            height: 231px;
+            border-radius: 15px 15px 0 0;
+        }
+        & p {
+            position: absolute;
+            right: 29.2px;
+            font-size: 16px;
+            padding: 6px 9px;
+            background: #99E2D0;
+            box-shadow: 0px 2px 4px rgb(0 0 0 / 15%);
+            border-radius: 2px;
+            color: #008766;
+            text-align: center;
+        }
+        }
+    &__under {
+        margin-top: 0;
+        border-radius: 0 0 15px 15px;
+        background: white;
+        height: 85px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); 
+    & p {
+        margin: 0;
+        font-size: 24px;
+        margin-top: 5px;
+        margin-left: 12.81px;
+    }
+    & h4 {
+        margin-top: 0px;
+        padding-top: 16px;
+        font-size: 20px;
+        margin-left: 12.81px;
+        margin-bottom: 0;
+    }
+    }
+}
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    background: #353535;
+    color: white;
+    margin-top: 64px;
 }
