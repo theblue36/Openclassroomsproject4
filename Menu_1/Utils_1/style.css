@@ -1,0 +1,103 @@
+.container__header__menu__1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__top__imgbloc {
+  height: 275px;
+  width: 100%;
+}
+.main__top__imgbloc img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 275px;
+}
+
+.main__bottom {
+  background: #F6F6F6;
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+.main__bottom__1stcont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 17px 0 17px;
+}
+.main__bottom__1stcont__title h2 {
+  font-family: "Shrikhand", cursive;
+  font-weight: 400;
+}
+.main__bottom__1stcont__icone {
+  margin-right: 25px;
+}
+.main__bottom__1stcont__icone i {
+  font-size: 22px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #FFFFFF;
+  box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+  border-radius: 15.0431px;
+  margin-bottom: 12px;
+}
+
+.main__bottom__2ndcont__button {
+  margin-top: 28px;
+  margin-bottom: 40px;
+  padding: 13px 16px;
+  display: flex;
+  justify-content: center;
+}
+.main__bottom__2ndcont__button button {
+  padding: 13px 16px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35);
+  border-radius: 25px;
+  border: 0px;
+  width: 186px;
+  height: 50px;
+  color: white;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #353535;
+  color: white;
+  padding: 0 25px;
+}
+footer h4 {
+  font-style: italic;
+  font-family: "Shrikhand", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+footer ul {
+  margin: 0 0 33px 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul li {
+  margin-bottom: 7px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+footer ul li span {
+  margin-right: 11px;
+}/*# sourceMappingURL=style.css.map */
