@@ -175,6 +175,10 @@
   font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
+.main__bottom__cont__under a {
+  text-decoration: none;
+  color: black;
+}
 .main__bottom__cont .icon {
   margin-right: 25px;
 }
@@ -210,6 +214,7 @@ footer ul li {
   margin-bottom: 7px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 footer ul li span {
   margin-right: 11px;

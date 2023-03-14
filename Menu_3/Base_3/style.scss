@@ -1,0 +1,17 @@
+.container__header__menu__1__icone {
+    margin-left: 23px;
+}
+.container__header__top__menu__1__logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+& img {
+    width: 162px;
+    padding: 14px;
+}
+}
+body {
+    margin: 0;
+    background: #F7F7F7;
+}
