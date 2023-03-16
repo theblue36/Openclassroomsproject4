@@ -184,18 +184,27 @@
     }
     .icon {
         margin-right: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
     & i {
         font-size: 22px;
     }
     & i:last-child {
-        display: none;
+        position: absolute;
+        opacity: 0;
+        background-clip: text;
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+        background-clip: text;
+        background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%)
     }
     & i:first-child:hover {
-        display: none;
+        opacity: 0;
     }
-    & i:first-child:hover i:last-child {
-        display: flex;
-        background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    & i:last-child:hover {
+        opacity: 1;   
     }
     }
 }
@@ -233,7 +242,6 @@ footer {
     }
     }
     }
-}
 }
 /***TABLETTES PC***/
 @media only screen and (min-width: 762px) and (max-width: 1400px) {
@@ -428,14 +436,15 @@ footer {
             font-size: 22px;
         }
         & i:last-child {
-            display: none;
+            opacity: 0;
         }
         & i:first-child:hover {
-            display: none;
+            opacity: 0;
         }
         & i:first-child:hover i:last-child {
-            display: flex;
+            opacity: 1;
             background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+
         }
         }
     }

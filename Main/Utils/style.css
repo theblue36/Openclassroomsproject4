@@ -180,55 +180,65 @@
   }
   .main__bottom__cont .icon {
     margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .main__bottom__cont .icon i {
+  .main__bottom__cont i {
     font-size: 22px;
   }
-  .main__bottom__cont .icon i:last-child {
-    display: none;
-  }
-  .main__bottom__cont .icon i:first-child:hover {
-    display: none;
-  }
-  .main__bottom__cont .icon i:first-child:hover i:last-child {
-    display: flex;
+  .main__bottom__cont i:last-child {
+    position: absolute;
+    opacity: 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   }
-  .desktop__flex {
-    display: flex;
-    row-gap: 25px;
-    flex-direction: column;
+  .main__bottom__cont i:first-child:hover {
+    opacity: 0;
   }
-  footer {
-    display: flex;
-    flex-direction: column;
-    background: #353535;
-    color: white;
-    margin-top: 64px;
-    padding: 0 25px;
-  }
-  footer h4 {
-    font-style: italic;
-    font-family: "Shrikhand", cursive;
-    font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 16px;
-  }
-  footer ul {
-    margin: 0 0 33px 0;
-    padding: 0;
-    list-style: none;
-  }
-  footer ul li {
-    margin-bottom: 7px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    cursor: pointer;
-  }
-  footer ul li span {
-    margin-right: 11px;
+  .main__bottom__cont i:last-child:hover {
+    opacity: 1;
   }
 }
+.desktop__flex {
+  display: flex;
+  row-gap: 25px;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #353535;
+  color: white;
+  margin-top: 64px;
+  padding: 0 25px;
+}
+footer h4 {
+  font-style: italic;
+  font-family: "Shrikhand", cursive;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+footer ul {
+  margin: 0 0 33px 0;
+  padding: 0;
+  list-style: none;
+}
+footer ul li {
+  margin-bottom: 7px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+footer ul li span {
+  margin-right: 11px;
+}
+
 /***TABLETTES PC***/
 @media only screen and (min-width: 762px) and (max-width: 1400px) {
   /***MENU_PRINCIPALE***/
@@ -420,13 +430,13 @@
     font-size: 22px;
   }
   .main__bottom__cont .icon i:last-child {
-    display: none;
+    opacity: 0;
   }
   .main__bottom__cont .icon i:first-child:hover {
-    display: none;
+    opacity: 0;
   }
   .main__bottom__cont .icon i:first-child:hover i:last-child {
-    display: flex;
+    opacity: 1;
     background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   }
   .desktop__flex {
