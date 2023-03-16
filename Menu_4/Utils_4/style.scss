@@ -1,3 +1,4 @@
+@media only screen and (min-width: 400px) and (max-width: 762px) {
 .container__header__menu__1 {
     display: flex;
     align-items: center;
@@ -160,6 +161,55 @@ main {
         cursor: pointer;
     }
 }
+.animation__1  {
+    animation-name: anim1;
+    animation-duration: 3s;
+}
+@keyframes anim1 {
+    from {
+        scale: 0;
+        margin-left: 100%;
+    }
+    to {
+        scale: 1;
+        margin-right: 0;
+    }
+    
+}
+.animation__2 {
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-delay: 750ms;
+    margin-top: 40px;
+@keyframes anim2 {
+    from {
+        scale: 0;
+        margin-left: 100%;
+    }
+    to {
+        scale: 1;
+        margin-right: 0;
+    }
+    
+}
+}
+.animation__3 {
+    animation-name: anim3;
+    animation-duration: 3s;
+    animation-delay: 1500ms;
+    margin-top: 40px;
+    @keyframes anim3 {
+        from {
+            scale: 0;
+            margin-left: 100%;
+        }
+        to {
+            scale: 1;
+            margin-right: 0;
+        }
+        
+    }
+}
 footer {
     display: flex;
     flex-direction: column;
@@ -187,4 +237,5 @@ footer {
     }
     }
     }
+}
 }
