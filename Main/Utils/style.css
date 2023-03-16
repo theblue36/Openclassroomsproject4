@@ -194,7 +194,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   }
   .main__bottom__cont i:first-child:hover {
     opacity: 0;
