@@ -244,7 +244,7 @@ footer {
     }
 }
 /***TABLETTES PC***/
-@media only screen and (min-width: 762px) and (max-width: 1400px) {
+@media only screen and (min-width: 992px) {
     @mixin column {
         display: flex;
         flex-direction: column;
@@ -411,7 +411,7 @@ footer {
             align-items: center;
         & p {
             margin: 0;
-            font-size: 24px;
+            font-size: 19px;
             margin-top: 5px;
             margin-left: 12.81px;
             font-family: 'Roboto', sans-serif;
@@ -419,7 +419,7 @@ footer {
         }
         & h4 {
             margin-top: 0px;
-            font-size: 20px;
+            font-size: 19px;
             margin-left: 12.81px;
             margin-bottom: 0;
             font-family: 'Roboto', sans-serif;
@@ -432,18 +432,27 @@ footer {
         }
         .icon {
             margin-right: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         & i {
             font-size: 22px;
         }
         & i:last-child {
+            position: absolute;
             opacity: 0;
+            background-clip: text;
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+            background-clip: text;
+            background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+            margin-right: -1px;
         }
         & i:first-child:hover {
             opacity: 0;
         }
-        & i:first-child:hover i:last-child {
+        & i:last-child:hover {
             opacity: 1;
-            background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
 
         }
         }
@@ -452,6 +461,7 @@ footer {
 .desktop__flex {
     display: flex;
     column-gap: 26px;
+    flex-direction: row;
 }
     footer {
         display: flex;
@@ -467,7 +477,7 @@ footer {
             font-family: 'Shrikhand', cursive;
             font-weight: 400;
             font-size: 18px;
-            margin-bottom: 16px;
+            margin-bottom: 30px;
             margin-right: 38px;
         }
         & ul {

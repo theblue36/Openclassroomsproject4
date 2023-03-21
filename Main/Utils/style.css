@@ -240,7 +240,7 @@ footer ul li span {
 }
 
 /***TABLETTES PC***/
-@media only screen and (min-width: 762px) and (max-width: 1400px) {
+@media only screen and (min-width: 992px) {
   /***MENU_PRINCIPALE***/
   .container__header {
     display: flex;
@@ -405,7 +405,7 @@ footer ul li span {
   }
   .main__bottom__cont__under p {
     margin: 0;
-    font-size: 24px;
+    font-size: 19px;
     margin-top: 5px;
     margin-left: 12.81px;
     font-family: "Roboto", sans-serif;
@@ -413,7 +413,7 @@ footer ul li span {
   }
   .main__bottom__cont__under h4 {
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 12.81px;
     margin-bottom: 0;
     font-family: "Roboto", sans-serif;
@@ -425,24 +425,34 @@ footer ul li span {
   }
   .main__bottom__cont .icon {
     margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .main__bottom__cont .icon i {
     font-size: 22px;
   }
   .main__bottom__cont .icon i:last-child {
+    position: absolute;
     opacity: 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    margin-right: -1px;
   }
   .main__bottom__cont .icon i:first-child:hover {
     opacity: 0;
   }
-  .main__bottom__cont .icon i:first-child:hover i:last-child {
+  .main__bottom__cont .icon i:last-child:hover {
     opacity: 1;
-    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
   }
   .desktop__flex {
     display: flex;
     -moz-column-gap: 26px;
          column-gap: 26px;
+    flex-direction: row;
   }
   footer {
     display: flex;
@@ -459,7 +469,7 @@ footer ul li span {
     font-family: "Shrikhand", cursive;
     font-weight: 400;
     font-size: 18px;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
     margin-right: 38px;
   }
   footer ul {
