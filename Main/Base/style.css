@@ -1,3 +1,4 @@
+/***MOBILE***/
 @media only screen and (min-width: 400px) and (max-width: 762px) {
   .container__header img {
     width: 162px;
@@ -14,6 +15,24 @@
     background: #F7F7F7;
   }
 }
+/***TABLETTE***/
+@media only screen and (min-width: 762px) and (max-width: 992px) {
+  .container__header img {
+    width: 162px;
+    padding: 14px 108px 5px 105px;
+  }
+  main img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 231px;
+  }
+  body {
+    margin: 0;
+    background: #F7F7F7;
+  }
+}
+/***DESKTOP***/
 @media only screen and (min-width: 992px) {
   .container__header img {
     width: 162px;
