@@ -606,6 +606,7 @@ footer {
         background-color: rgba(0,0,0,0.9);
         animation: loader 4s linear;
         animation-fill-mode: both;
+        z-index: 1000;
       }
       @keyframes loader {
       0% {
@@ -758,8 +759,8 @@ footer {
         display: flex;
         row-gap: 25px;
         flex-direction: column;
-        position: relative;
-        right: -100px;
+        z-index: 0;
+        transform: translateX(100px);
         & h3:first-child {
             font-size: 24px;
             margin-top: 54px;
