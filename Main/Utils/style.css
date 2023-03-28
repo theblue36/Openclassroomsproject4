@@ -5,7 +5,7 @@
     height: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.9);
-    animation: loader 4s linear;
+    animation: loader 3s linear;
     animation-fill-mode: both;
   }
   @keyframes loader {
@@ -35,7 +35,7 @@
     border-radius: 50%;
     border: 6px solid #fff;
     border-color: #fff transparent #fff transparent;
-    animation: lds-dual-ring 4s linear;
+    animation: lds-dual-ring 3s linear;
   }
   @keyframes lds-dual-ring {
     0% {
@@ -291,7 +291,7 @@ footer ul li span {
     height: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.9);
-    animation: loader 4s linear;
+    animation: loader 3s linear;
     animation-fill-mode: both;
   }
   @keyframes loader {
@@ -321,7 +321,7 @@ footer ul li span {
     border-radius: 50%;
     border: 6px solid #fff;
     border-color: #fff transparent #fff transparent;
-    animation: lds-dual-ring 4s linear;
+    animation: lds-dual-ring 3s linear;
   }
   @keyframes lds-dual-ring {
     0% {
@@ -590,7 +590,7 @@ footer ul li span {
     height: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.9);
-    animation: loader 4s linear;
+    animation: loader 3s linear;
     animation-fill-mode: both;
     z-index: 1000;
   }
@@ -621,7 +621,7 @@ footer ul li span {
     border-radius: 50%;
     border: 6px solid #fff;
     border-color: #fff transparent #fff transparent;
-    animation: lds-dual-ring 4s linear;
+    animation: lds-dual-ring 3s linear;
   }
   @keyframes lds-dual-ring {
     0% {
